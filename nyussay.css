@@ -1,0 +1,532 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+header {
+  /* главная образование опыт проекты eng */
+
+  position: absolute;
+  width: 659px;
+  height: 35px;
+  left: 715px;
+  top: 50px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #000000;
+}
+
+header a + a {
+  margin-left: 23px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  color: #000000;
+  background: #ffffff;
+  font-family: "Raleway", sans-serif;
+}
+
+a:hover {
+  color: lightgray;
+  text-decoration: none;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+}
+
+#name h1 {
+  /* БОРИСОВА НЮРГУЯНА КОНСТАНТИНОВНА */
+  position: absolute;
+  width: 627px;
+  height: 245px;
+  left: 110px;
+  top: 163px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+#name p {
+  /* IT специалист */
+
+  position: absolute;
+  width: 322px;
+  height: 56px;
+  left: 110px;
+  top: 423px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+
+  color: #000000;
+}
+
+#name img {
+  /* IMG avatar */
+
+  position: absolute;
+  width: 439px;
+  height: 421px;
+  left: 890px;
+  top: 163px;
+}
+
+#contact {
+  /* тел: +7(981)121-69-35 e-mail: nyuusss@icloud.com git: nyussay linkedin: nyussay instagram: nyussay */
+
+  position: absolute;
+  width: 393px;
+  height: 215px;
+  left: 111px;
+  top: 543px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+
+  color: #000000;
+}
+
+#heart1 {
+  position: absolute;
+  width: 399px;
+  height: 399px;
+  left: 1109px;
+  top: 806px;
+}
+
+#heart2 {
+  position: absolute;
+  width: 258px;
+  height: 258px;
+  left: -81px;
+  top: 965px;
+}
+
+#heart3 {
+  position: absolute;
+  width: 399px;
+  height: 399px;
+  left: -74px;
+  top: 4251px;
+}
+
+.name1 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+}
+.perscription {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+
+#education {
+  /* ОБРАЗОВАНИЕ */
+
+  position: absolute;
+  width: 479px;
+  height: 75px;
+  left: 96px;
+  top: 1186px;
+}
+#jyu_img {
+  position: absolute;
+  width: 177px;
+  height: 98px;
+  left: 91px;
+  top: 1332px;
+}
+
+#jyu {
+  position: absolute;
+  width: 899px;
+  height: 42px;
+  left: 376px;
+  top: 1323px;
+}
+
+#jyu2 {
+  position: absolute;
+  width: 560px;
+  height: 84px;
+  left: 376px;
+  top: 1377px;
+}
+
+#itmo_img {
+  position: absolute;
+  width: 191px;
+  height: 135px;
+  left: 77px;
+  top: 1501px;
+}
+
+#itmo {
+  position: absolute;
+  width: 633px;
+  height: 42px;
+  left: 376px;
+  top: 1514px;
+}
+
+#itmo2 {
+  position: absolute;
+  width: 305px;
+  height: 84px;
+  left: 377px;
+  top: 1568px;
+}
+
+#nefu_img {
+  position: absolute;
+  width: 108px;
+  height: 159px;
+  left: 128px;
+  top: 1707px;
+}
+
+#nefu {
+  position: absolute;
+  width: 933px;
+  height: 84px;
+  left: 376px;
+  top: 1707px;
+}
+
+#nefu2 {
+  position: absolute;
+  width: 305px;
+  height: 84px;
+  left: 376px;
+  top: 1803px;
+}
+.arrow {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 1213px;
+  top: 1867px;
+}
+
+#want_logo {
+  position: absolute;
+  width: 126px;
+  height: 102px;
+  left: 128px;
+  top: 2133px;
+}
+
+#second h1 {
+  position: absolute;
+  width: 491px;
+  height: 75px;
+  left: 98px;
+  top: 1987px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+}
+
+#second h6 {
+  position: absolute;
+  width: 1038px;
+  height: 42px;
+  left: 379px;
+  top: 2124px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+#second p {
+  position: absolute;
+  width: 867px;
+  height: 84px;
+  left: 379px;
+  top: 2175px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+#third h6 {
+  position: absolute;
+  width: 442px;
+  height: 42px;
+  left: 378px;
+  top: 2311px;
+}
+
+#third p {
+  position: absolute;
+  width: 561px;
+  height: 84px;
+  left: 379px;
+  top: 2362px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+#third img {
+  position: absolute;
+  width: 186px;
+  height: 101px;
+  left: 91px;
+  top: 2311px;
+}
+
+#fourth h6 {
+  position: absolute;
+  width: 1038px;
+  height: 42px;
+  left: 378px;
+  top: 2505px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+#fourth p {
+  position: absolute;
+  width: 661px;
+  height: 84px;
+  left: 379px;
+  top: 2553px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+#fourth img {
+  position: absolute;
+  width: 89px;
+  height: 116px;
+  left: 139px;
+  top: 2508px;
+}
+
+#fifth h6 {
+  position: absolute;
+  width: 1038px;
+  height: 42px;
+  left: 378px;
+  top: 2682px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+#fifth p {
+  position: absolute;
+  width: 369px;
+  height: 84px;
+  left: 378px;
+  top: 2731px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+#fifth img {
+  position: absolute;
+  width: 151px;
+  height: 157px;
+  left: 107px;
+  top: 2663px;
+}
+
+#jobs .arrow {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 1215px;
+  top: 2668px;
+}
+
+#projects {
+  position: absolute;
+  width: 316px;
+  height: 75px;
+  left: 562px;
+  top: 2905px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+}
+
+#pro1 {
+  position: absolute;
+  width: 347px;
+  height: 312px;
+  left: 154px;
+  top: 3062px;
+}
+
+#pro2 {
+  position: absolute;
+  width: 531px;
+  height: 303px;
+  left: 733px;
+  top: 3062px;
+}
+#pro3 {
+  position: absolute;
+  width: 551px;
+  height: 344px;
+  left: 100px;
+  top: 3542px;
+}
+#pro4 {
+  position: absolute;
+  width: 545px;
+  height: 311px;
+  left: 750px;
+  top: 3539px;
+}
+#pro5 {
+  position: absolute;
+  width: 504px;
+  height: 331px;
+  left: 733px;
+  top: 4047px;
+}
+
+#pro11 {
+  position: absolute;
+  width: 347px;
+  height: 70px;
+  left: 154px;
+  top: 3387px;
+  text-align: center;
+}
+
+#pro21 {
+  position: absolute;
+  width: 533px;
+  height: 70px;
+  left: 731px;
+  top: 3387px;
+  text-align: center;
+}
+
+#pro31 {
+  position: absolute;
+  width: 455px;
+  height: 70px;
+  left: 148px;
+  top: 3893px;
+  text-align: center;
+}
+
+#pro41 {
+  position: absolute;
+  width: 455px;
+  height: 35px;
+  left: 796px;
+  top: 3892px;
+  text-align: center;
+}
+
+#pro51 {
+  position: absolute;
+  width: 455px;
+  height: 70px;
+  left: 744px;
+  top: 4400px;
+  text-align: center;
+}
+
+#footer {
+  position: absolute;
+  width: 614px;
+  height: 70px;
+  left: 413px;
+  top: 4700px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+}
+
+#projects_all .arrow {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 1250px;
+  top: 4485px;
+}

@@ -1,0 +1,33 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+h6 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+#soon {
+  position: absolute;
+  width: 577px;
+  height: 42px;
+  left: 431px;
+  top: 231px;
+}
+
+#back {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 49px;
+  top: 47px;
+}
